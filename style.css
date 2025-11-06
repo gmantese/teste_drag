@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100px;
+    border: 2px dashed gray;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.draggable-item {
+    display: flex;
+    background-color: #f0ad4e;
+    color: white;
+    padding: 0.3rem;
+    margin: 0.2rem;
+    height: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.origen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
