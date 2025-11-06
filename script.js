@@ -52,8 +52,10 @@ for (container of containers) {
         // O método appendChild move o elemento automaticamente de seu pai antigo
         // (o container de origem) para este novo container (o container de destino).
         event.currentTarget.appendChild(copia);
+        copia.draggable="false";
     });
 
 }
+
 
 });
